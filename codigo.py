@@ -18,8 +18,17 @@ pyautogui.write('https://dlp.hashtagtreinamentos.com/python/intensivao/login')
 pyautogui.press('enter')
 sleep(3)
 
-# PASSO 2 : Fazr login
+# PASSO 2 : Fazer login
+pyautogui.click(x=389, y=358)
+pyautogui.write('emailtest@hotmail.com')
+pyautogui.press('tab')
+pyautogui.write('senhatest')
+pyautogui.press('tab')
+pyautogui.press('enter')
+sleep(3)
+
 # PASSO 3 : Importrar a base de dados
+
 # PASSO 4 : Cadastrar um produto
 # PASSO 5 : Repetir para todos os produtos
 
