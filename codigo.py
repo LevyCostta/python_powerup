@@ -28,6 +28,10 @@ pyautogui.press('enter')
 sleep(3)
 
 # PASSO 3 : Importrar a base de dados
+import pandas
+
+tabela = pandas.read_csv('produtos.csv')
+
 
 # PASSO 4 : Cadastrar um produto
 # PASSO 5 : Repetir para todos os produtos
