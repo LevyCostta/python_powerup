@@ -32,7 +32,7 @@ import pandas
 tabela = pandas.read_csv('produtos.csv')
 print(tabela)
 
-# PASSO 4 : Cadastrar um produto
+# PASSO 4 : Cadastrar um produto e Repetir para todos os outros produtos
 for linha in tabela.index:
     pyautogui.click(x=415, y=251)
 
@@ -67,7 +67,6 @@ for linha in tabela.index:
     pyautogui.press('tab')
     pyautogui.press('enter')
     pyautogui.scroll(10000)#voltar para o inicio da pagina
-# PASSO 5 : Repetir para todos os produtos
 
 
 
